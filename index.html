@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="jumbotrone-fluid">
+
+        <!--NavPart-->
+        <div class=" conatiner-fluid ">
+
+            <div id="overlayNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <div class="overlay-content">
+                        <a href="https://marketpreneurs.brainster.co/">Академија за маркетинг</a>
+                        <a href="http:codepreneurs.co">Академија за програмирање</a>
+                        <a href="#">Академија за data science</a>
+                        <a href="https://design.brainster.co">Академија за дизајн</a>
+                        <a href="employment.html"><button class="btn navbutton mr-5" type="submit">Вработи наш студент</button></a>
+                    </div>
+
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-dark navstyle ">
+
+                <a class="navbar-brand " href="index.html">
+                    <img src="./img/logo.png" alt="Logo" class="navimg">
+                    <p class="text-uppercase text-dark navlogo"><b>brainster</b></p>
+                </a>
+
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" onclick="openNav()">
+                        <i class="fa fa-navicon" style="color:black; font-size:28px;"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item  list-style">
+                            <a class="nav-link style-link text-dark"
+                                href="https://marketpreneurs.brainster.co/"><b>Академија за маркетинг</b></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link style-link  text-dark" href="http:codepreneurs.co"><b>Академија за
+                                    програмирање</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link style-link  text-dark" href="#"><b>Академија за data science</b></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link style-link  text-dark mr-5"
+                                href="https://design.brainster.co"><b>Академија
+                                    за дизајн</b></a>
+                        </li>
+                    </ul>
+                    <a href="employment.html"><button class="btn navbutton mr-5" type="submit">Вработи наш
+                            студент</button></a>
+                </div>
+            </nav>
+            <!--end of nav-->
+        </div>
+
+        <div class="holder d-flex justify-content-center align-items-center text-white">
+            <h1 class="holdertext  text-capitalize"><b>brainster labs</b></h1>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row d-flex">
+            <div class="col-sm-12 col-md-12 col-lg-4 projectsFilters" id="marketingFilter">
+                <label for="marketing" class="inputTextstyle projdectsinput">
+                    <input type="checkbox" id="marketing" class="checkinput">Проекти на студенти по академијата за
+                    маркетинг
+                </label>
+                <div>
+                    <i class="fa fa-check-circle fa-2x projectsIcon" id="marketingIcon"></i>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-4 projectsFilters projectPrograming" id="programingFilter">
+                <label for="programing" class="inputTextstyle projdectsinput">
+                    <input type="checkbox" id="programing" class="checkinput">Проекти на студенти по академијата за
+                    програмирање
+                </label>
+                <div>
+                    <i class="fa fa-check-circle fa-2x projectsIcon" id="programingIcon"></i>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-4 projectsFilters " id="designFilter">
+                <label for="design" class="inputTextstyle projdectsinput">
+                    <input type="checkbox" id="design" class="checkinput">Проекти на студенти по академијата за дизајн
+                </label>
+                <div>
+                    <i class="fa fa-check-circle fa-2x projectsIcon" id="designIcon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cardHolder">
+        <h1 class="text-center text-capitalize p-5">проекти</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/E5GUBD8MWN.jpg" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                            <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/istockphoto-1212006391-170667a.jpg"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                             <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/2CI87DJPDZ.jpg" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                             <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/istockphoto-1205578548-170667a.jpg"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                             <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/woman-developer_64EKVZ4V2B.jpg" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                            <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/woman-developer_HMPNPRBUJ7.webp"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                            <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/istockphoto-1164704600-170667a.jpg"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                            <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/Q1OSKR7D42.jpg" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                            <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/code-1839406__340.webp" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 programingCards">
+                        <img class="card-img-top img-fluid" src="./img/laptop-2557576__340.webp" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Програмирање</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="http:codepreneurs.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 marketingCards">
+                        <img class="card-img-top img-fluid" src="./img/freelancer-763730__340.webp" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Маркетинг</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://marketpreneurs.brainster.co/" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 marketingCards">
+                        <img class="card-img-top img-fluid" src="./img/digital-marketing-1433427__340.webp"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Маркетинг</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://marketpreneurs.brainster.co/" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 marketingCards">
+                        <img class="card-img-top img-fluid" src="./img/pexels-photo-669610.jpeg" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Маркетинг</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://marketpreneurs.brainster.co/" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 marketingCards">
+                        <img class="card-img-top img-fluid" src="./img/pexels-photo-905163.jpeg" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Маркетинг</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://marketpreneurs.brainster.co/" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 marketingCards">
+                        <img class="card-img-top img-fluid" src="./img/photo-1432888498266-38ffec3eaf0a.png"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Маркетинг</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://marketpreneurs.brainster.co/" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="card shadow border-0 marketingCards">
+                        <img class="card-img-top img-fluid" src="./img/photo-1519389950473-47ba0277781c.jpg"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Маркетинг</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://marketpreneurs.brainster.co/" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" pb-3">
+                    <div class="card shadow border-0 designCards ">
+                        <img class="card-img-top img-fluid" src="./img/photo-1581291518633-83b4ebd1d83e.jpg"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Дизајн</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://design.brainster.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" pb-3">
+                    <div class="card shadow border-0 designCards">
+                        <img class="card-img-top img-fluid" src="./img/doctype-hi-res.jpg" alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Дизајн</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://design.brainster.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" pb-3">
+                    <div class="card shadow border-0 designCards">
+                        <img class="card-img-top img-fluid" src="./img/photo-1501163109389-abf37ca1276a.jpg"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Дизајн</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://design.brainster.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" pb-3">
+                    <div class="card shadow border-0 designCards">
+                        <img class="card-img-top img-fluid" src="./img/photo-1472289065668-ce650ac443d2.jpg"
+                            alt="Card image">
+                        <div class="card-body">
+                            <p class="cardheaderText">Академија за Дизајн</p>
+                            <h5 class="card-title">Име на проектот стои овде во две линии</h5>
+                            <p class="card-text">Краток опис во кој студентите ке можат да опишат за што се
+                                работи во проектот.</p>
+                                <p class="font-weight-bold cardFootertext">Април-Октомври 2019</p>
+                            <div class="card-footer border-0 bg-white d-flex justify-content-end p-0">
+                                <a href="https://design.brainster.co" class="btn ">Дознај повеќе</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid  bg-dark text-white d-flex justify-content-center pt-2">
+        <div class="row">
+            <div class="col">
+                <p>изработено со <i class="fa fa-heart" style="color: red;"></i>од студентите на Brainster</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector("#marketing").addEventListener("change", filterMarketingcards);
+        document.querySelector("#programing").addEventListener("change", filterProgramingcards);
+        document.querySelector("#design").addEventListener("change", filterDesigncards);
+
+        function filterMarketingcards() {
+
+            document.querySelector("#programing").checked = false;
+            document.querySelector("#design").checked = false;
+            document.querySelector("#programingFilter").style.backgroundColor = "rgb(48, 47, 56)";
+            document.querySelector("#programingFilter").style.color = "rgb(255, 255, 255)";
+            document.querySelector("#designFilter").style.backgroundColor = "rgb(48, 47, 56)";
+            document.querySelector("#designFilter").style.color = "rgb(255, 255, 255)";
+            document.querySelector("#programingIcon").style.visibility = 'hidden';
+            document.querySelector("#designIcon").style.visibility = 'hidden';
+
+            var selectedCards = document.querySelectorAll(".card");
+
+            selectedCards.forEach(function (card) {
+                card.style.display = "none";
+            });
+
+            if (document.querySelector("#marketing").checked) {
+                document.querySelector("#marketingFilter").style.backgroundColor = "rgb(235, 59, 59)";
+                document.querySelector("#marketingFilter").style.color = "rgb(48, 47, 56)";
+                document.querySelector("#marketingIcon").style.visibility = 'visible';
+                var cardsVisible = document.querySelectorAll(".marketingCards");
+            } else {
+                document.querySelector("#marketingFilter").style.backgroundColor = "rgb(48, 47, 56)";
+                document.querySelector("#marketingFilter").style.color = "rgb(255, 255, 255)";
+                document.querySelector("#marketingIcon").style.visibility = 'hidden';
+                var cardsVisible = document.querySelectorAll(".card");
+            }
+
+            cardsVisible.forEach(function (card) {
+                card.style.display = "inline-block";
+            });
+        }
+
+        function filterProgramingcards() {
+
+            document.querySelector("#marketing").checked = false;
+            document.querySelector("#design").checked = false;
+            document.querySelector("#marketingFilter").style.backgroundColor = "rgb(48, 47, 56)";
+            document.querySelector("#marketingFilter").style.color = "rgb(255, 255, 255)";
+            document.querySelector("#designFilter").style.backgroundColor = "rgb(48, 47, 56)";
+            document.querySelector("#designFilter").style.color = "rgb(255, 255, 255)";
+            document.querySelector("#marketingIcon").style.visibility = 'hidden';
+            document.querySelector("#designIcon").style.visibility = 'hidden';
+            var selectedCards = document.querySelectorAll(".card");
+
+            selectedCards.forEach(function (card) {
+                card.style.display = "none";
+            });
+
+            if (document.querySelector("#programing").checked) {
+                document.querySelector("#programingFilter").style.backgroundColor = "rgb(235, 59, 59)";
+                document.querySelector("#programingFilter").style.color = "rgb(48, 47, 56)";
+                document.querySelector("#programingIcon").style.visibility = 'visible';
+                var cardsVisible = document.querySelectorAll(".programingCards");
+            } else {
+                document.querySelector("#programingFilter").style.backgroundColor = "rgb(48, 47, 56)";
+                document.querySelector("#programingFilter").style.color = "rgb(255, 255, 255)";
+                document.querySelector("#programingIcon").style.visibility = 'hidden';
+                var cardsVisible = document.querySelectorAll(".card");
+            }
+
+            cardsVisible.forEach(function (card) {
+                card.style.display = "inline-block";
+            });
+        }
+
+        function filterDesigncards() {
+
+            document.querySelector("#marketing").checked = false;
+            document.querySelector("#programing").checked = false;
+            document.querySelector("#programingFilter").style.backgroundColor = "rgb(48, 47, 56)";
+            document.querySelector("#programingFilter").style.color = "rgb(255, 255, 255)";
+            document.querySelector("#marketingFilter").style.backgroundColor = "rgb(48, 47, 56)";
+            document.querySelector("#marketingFilter").style.color = "rgb(255, 255, 255)";
+            document.querySelector("#programingIcon").style.visibility = 'hidden';
+            document.querySelector("#marketingIcon").style.visibility = 'hidden';
+
+            var selectedCards = document.querySelectorAll(".card");
+
+            selectedCards.forEach(function (card) {
+                card.style.display = "none";
+            });
+
+            if (document.querySelector("#design").checked) {
+                document.querySelector("#designFilter").style.backgroundColor = "rgb(235, 59, 59)";
+                document.querySelector("#designFilter").style.color = "rgb(48, 47, 56)";
+                document.querySelector("#designIcon").style.visibility = 'visible';
+                var cardsVisible = document.querySelectorAll(".designCards");
+            } else {
+                document.querySelector("#designFilter").style.backgroundColor = "rgb(48, 47, 56)";
+                document.querySelector("#designFilter").style.color = "rgb(255, 255, 255)";
+                document.querySelector("#designIcon").style.visibility = 'hidden';
+                var cardsVisible = document.querySelectorAll(".card");
+            }
+
+            cardsVisible.forEach(function (card) {
+                card.style.display = "inline-block";
+            });
+        }
+
+
+        function openNav() {
+            document.getElementById("overlayNav").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("overlayNav").style.display = "none";
+        }
+
+    </script>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

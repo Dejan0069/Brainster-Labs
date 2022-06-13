@@ -1,0 +1,102 @@
+
+.navstyle{
+    background-color: rgb(252, 210, 50);
+    padding: 0px;
+}
+
+.navimg{
+    width: 40px;
+}
+
+.navlogo{
+    font-size: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    margin-left: 60px;
+}
+
+#navbarNav .navbutton{
+    background-color: rgb(255, 19, 0);
+    color: white;
+}
+
+.inputholder{
+    background-color: rgb(252, 210, 50);
+}
+
+.form-row .input-button{
+    margin-top: 16px;
+    background-color: rgb(255, 19, 0);
+}
+
+ .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(48, 47, 56);
+ }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: start;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px; 
+    color:rgb(255, 255, 255);
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a > button {
+      background-color: rgb(255, 19, 0);
+      color: rgb(255, 255, 255);
+  }
+
+  .overlay:hover a > button {
+      color: rgb(255, 255, 255);
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+  }
+
+ 
+  @media (max-width: 480px) {
+    .form-row .input-button{
+        margin-top:200px;
+        margin-bottom: 0px;
+    }
+    .footerText {
+        font-size: 10px;
+    }
+
+  } 
+
+  @media (max-width: 1024px) {
+    .form-row .selectText > option {
+      font-size: 12px;
+      padding: 0px;
+    }
+  }
+

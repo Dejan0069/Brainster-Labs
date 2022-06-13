@@ -1,0 +1,196 @@
+.navstyle {
+    background-color: rgb(252, 210, 50);
+    padding: 0px;
+}
+
+.navimg{
+    width: 40px;
+}
+
+.navlogo{
+    font-size: 8px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    margin-left: 60px;
+}
+
+#navbarNav .navbutton{
+    background-color: rgb(255, 19, 0);
+    color: white;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(48, 47, 56);
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: start;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px; 
+    color:rgb(255, 255, 255);
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a > button {
+      background-color: rgb(255, 19, 0);
+      color: rgb(255, 255, 255);
+  }
+
+  .overlay:hover a > button {
+      color: rgb(255, 255, 255);
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+  }
+
+.holder{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("./img/photo-1493612276216-ee3925520721.jpg");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+}
+
+.cardHolder {
+    background-color: rgb(252, 210, 50);
+}
+
+.cardheaderText {
+    background-color: rgb(252, 218, 88);
+    font-size: 11px;
+    width: 80%;
+}
+
+.card-text , .cardFootertext {
+    font-size: 11px;
+}
+
+.card {
+    overflow: hidden;
+    transition: transform .2s; 
+    width: 250px;
+    margin: 20px 10px;
+}
+
+.card .btn {
+    background-color: rgb(255, 19, 0);
+    color: white;
+}
+
+.card .btn:hover {
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.projects {
+    background-color: rgb(48, 47, 56);
+    color: rgb(255,255,255);
+    font-size: 18px;
+}
+
+.projdectsinput:hover {
+    cursor: pointer;
+}
+
+.projectPrograming{
+    border-left: 1px solid rgb(255,255,255);
+    border-right: 1px solid rgb(255,255,255);
+}
+
+
+.checkinput {
+    display: none;
+}
+
+.projectsFilters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 15px;
+    background-color: rgb(48, 47, 56);
+    color: rgb(255, 255, 255);
+}
+
+.inputTextstyle{
+    width: 75%;
+}
+
+.projectsIcon {
+    visibility: hidden;
+}
+
+
+ @media (max-width: 900px) { 
+    .projectPrograming{
+        border-bottom:1px solid rgb(255,255,255);
+        border-top: 1px solid rgb(255,255,255);
+        border-left:0;
+        border-right:0;
+    }
+
+    .projdectsinput {
+        display: flex;
+        justify-content: center;
+    }
+    
+ }
+
+ @media (max-width: 480px) {
+   .inputTextstyle {
+       width: 100%;
+   }
+
+   .cardHolder h1 {
+       display: flex;
+       justify-content: start;
+       padding: 0px;
+       margin: 0px;
+       font-size: 30px;
+   }
+
+   .navbar-brand {
+       margin: 0px;
+   }
+
+} 
+
+
+
+
+
+ 

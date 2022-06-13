@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="employment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <!--NavPart-->
+    <div class=" conatiner-fluid">
+
+        <div id="overlayNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <div class="overlay-content">
+                    <a href="https://marketpreneurs.brainster.co/">Академија за маркетинг</a>
+                    <a href="http:codepreneurs.co">Академија за програмирање</a>
+                    <a href="#">Академија за data science</a>
+                    <a href="https://design.brainster.co">Академија за дизајн</a>
+                    <a href="#"><button class="btn navbutton mr-5" type="submit">Вработи наш студент</button></a>
+                </div>
+
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark navstyle shadow">
+
+            <a class="navbar-brand " href="index.html">
+                <img src="logo.png" alt="Logo" class="navimg">
+                <p class="text-uppercase text-dark navlogo"><b>brainster</b></p>
+            </a>
+
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" onclick="openNav()"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item  list-style">
+                        <a class="nav-link style-link text-dark"
+                            href="https://marketpreneurs.brainster.co/"><b>Академија за маркетинг</b></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link style-link  text-dark" href="http:codepreneurs.co"><b>Академија за
+                                програмирање</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link style-link  text-dark" href="#"><b>Академија за data science</b></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link style-link  text-dark mr-5" href="https://design.brainster.co"><b>Академија
+                                за дизајн</b></a>
+                    </li>
+                </ul>
+                <a href="#"><button class="btn navbutton mr-5" type="submit">Вработи наш студент</button></a>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="container-fluid inputholder pb-5">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1 class="p-5 m-2"><b>Вработи студенти</b></h1>
+            </div>
+        </div>
+
+        <form class="needs-validation justify-content-center container pb-5" novalidate>
+            <div class="form-row justify-content-center">
+                <div class="col-md-6 col-sm-12 col-lg-6 mb-3">
+                    <label for="validationCustom01" class="font-italic font-weight-bold">Име и Презиме</label>
+                    <input type="text" class="form-control font-italic " id="validationCustom01"
+                        placeholder="Вашето име и презиме" value="" required>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-lg-6 mb-3">
+                    <label for="validationCustom02" class="font-italic font-weight-bold">Име на компанија</label>
+                    <input type="text" class="form-control font-italic" id="validationCustom02"
+                        placeholder="Име на вашата компанија" value="" required>
+                </div>
+            </div>
+
+            <div class="form-row justify-content-center">
+                <div class="col-md-6 col-sm-12 col-lg-6 mb-3">
+                    <label for="validationCustom03" class="font-italic font-weight-bold">Контакт имејл</label>
+                    <input type="email" class="form-control font-italic " id="validationCustom03"
+                        placeholder="Контакт имејл на вашата компанија" value="" required>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-6 ">
+                    <label for="validationCustom04" class="font-italic font-weight-bold">Контакт телефон</label>
+                    <input type="number" class="form-control font-italic " id="validationCustom04"
+                        placeholder="Контакт телефон на вашата компанија" value="" required>
+                </div>
+            </div>
+
+            <div class="form-row mb-5 justify-content-center">
+                <div class="form-group col-md-6 col-sm-12 col-lg-6">
+                    <label class="font-italic font-weight-bold" for="invalidCheck">Тип на студенти</label>
+                    <select id="invalidCheck" class="form-control font-italic" required>
+                        <option class="font-italic selectText">Изберете тип на студент</option>
+                        <option class="font-weight-bold selectText">Студенти од маркетинг</option>
+                        <option class="font-weight-bold selectText">Студенти од програмирање</option>
+                        <option class="font-weight-bold selectText">Студенти од data science</option>
+                        <option class="font-weight-bold selectText">Студенти од дизајн</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-lg-6 d-flex align-items-center">
+                    <button class="btn btn-block  text-white text-capitalize input-button"
+                        type="submit">испрати</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid  bg-dark text-white d-flex justify-content-center ">
+        <div class="row">
+            <div class="col">
+                <p class="footerText">изработено со <i class="fa fa-heart" style="color: red;"></i>од студентите на
+                    Brainster
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("overlayNav").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("overlayNav").style.display = "none";
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
